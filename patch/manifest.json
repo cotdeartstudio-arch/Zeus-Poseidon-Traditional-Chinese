@@ -1,14 +1,14 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "format": "ZHTCDEL1-gzip",
   "files": [
     {
       "path": "zeus.exe",
       "original": "382bcd286192a06eb8fdc45f5c37390a19999f5db9c940c3ce2dfcd775e90a57",
-      "patched": "f81aac1f9ade5698f89eb1560061c03461165a59f56b553bfb118c67e38504b7",
+      "patched": "55d86df40aa2ac1419621c100232ef1f34eafec81fe06a1baadfe58e40eff504",
       "bytes": 2772992,
       "delta": "payload/00.zhdelta",
-      "delta_sha256": "baa5e9edfebfa7e377a43a9fab58b6eda598f6e6b1bfec8d749373450ecd382f"
+      "delta_sha256": "7b8fc66153dbb9f03c49197f43f11e44a52c13d058d6c436442a4707300cba94"
     },
     {
       "path": "Zeus_Editor_Text.eng",
@@ -29,10 +29,10 @@
     {
       "path": "Zeus_Text.eng",
       "original": "ef75469a05947c367c46a4d195c849779987f6f0f70bbf70a3a1d2744d3b9339",
-      "patched": "af648498d5d5ecd2e3dd2673c9cf32a3101092302d6561846df1930b0abec4a8",
-      "bytes": 325656,
+      "patched": "92b31c6bd5eef40a8557d02530bf7fd6734a35a14257c8263e38e742c7acfaa1",
+      "bytes": 325630,
       "delta": "payload/03.zhdelta",
-      "delta_sha256": "fc5af451e6393bedd3aad25e62b31e8d72e0ac369a8cdeea1c3d5a6e3383b10b"
+      "delta_sha256": "a25918eaaf138a9401497c9648588f0437badc89bd7442f3c02214d995e34571"
     },
     {
       "path": "DATA/zeus_Fonts.555",

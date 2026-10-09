@@ -4,7 +4,7 @@ Write-Host '【重要】安裝前務必自行備份完整遊戲資料夾與玩�
 Write-Host '自動備份僅涵蓋補丁變更的檔案，不能取代完整備份。' -ForegroundColor Yellow
 Write-Host '本補丁免費提供，僅供已合法持有原版遊戲的玩家使用。'
 Write-Host '適用於 Steam 英文版 Zeus + Poseidon；非官方漢化補丁。'
-if ($Mode -eq 'Restore') { Write-Host '還原需使用本次安裝建立的 ZH-Patch-Backup-v2.2-時間 備份資料夾。' -ForegroundColor Yellow }
+if ($Mode -eq 'Restore') { Write-Host '還原需使用本次安裝建立的 ZH-Patch-Backup-v2.3-時間 備份資料夾。' -ForegroundColor Yellow }
 
 function Hash([string]$p) { (Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash.ToLowerInvariant() }
 function SafePath([string]$root,[string]$rel) {
@@ -22,7 +22,7 @@ if ($Mode -eq 'Restore') {
  if (-not $BackupDir) { $BackupDir=Read-Host '請輸入安裝時產生的備份資料夾完整路徑' }
  $BackupDir=(Resolve-Path -LiteralPath $BackupDir.Trim('"')).Path
  $state=Get-Content -LiteralPath (Join-Path $BackupDir 'backup.json') -Raw -Encoding UTF8 | ConvertFrom-Json
- if ($state.game -ne $GameDir -or $state.version -ne '2.2') { throw 'Backup does not belong to this game folder/version' }
+ if ($state.game -ne $GameDir -or $state.version -ne '2.3') { throw 'Backup does not belong to this game folder/version' }
  $operations=@()
  foreach ($f in $state.files) {
   $dst=SafePath $GameDir $f.path;$src=SafePath $BackupDir $f.path
@@ -30,19 +30,19 @@ if ($Mode -eq 'Restore') {
   $operations+=@{src=$src;dst=$dst;hash=$f.original}
  }
  foreach ($f in $state.disabled) {
-  $dst=SafePath $GameDir $f.path;$src=$dst+'.ZH-v2.2-disabled'
+  $dst=SafePath $GameDir $f.path;$src=$dst+'.ZH-v2.3-disabled'
   if (Test-Path -LiteralPath $dst) { throw 'Chinese resource already exists; refusing overwrite' }
   if ((Hash $src) -ne $f.original) { throw 'Disabled resource changed' }
  }
  foreach ($op in $operations) { Copy-Item -LiteralPath $op.src -Destination $op.dst -Force;if ((Hash $op.dst) -ne $op.hash) { throw 'Restore verification failed' } }
- foreach ($f in $state.disabled) { $dst=SafePath $GameDir $f.path;Move-Item -LiteralPath ($dst+'.ZH-v2.2-disabled') -Destination $dst }
+ foreach ($f in $state.disabled) { $dst=SafePath $GameDir $f.path;Move-Item -LiteralPath ($dst+'.ZH-v2.3-disabled') -Destination $dst }
  Write-Host '原版檔案已還原，存檔與設定保持不變。';exit
 }
 $disable=@()
 foreach ($f in $manifest.optional_disable) {
  $dst=SafePath $GameDir $f.path
  if (Test-Path -LiteralPath $dst) {
-  if ((Hash $dst) -ne $f.original -or (Test-Path -LiteralPath ($dst+'.ZH-v2.2-disabled'))) { throw 'Unsupported Chinese resource or conflicting backup' }
+  if ((Hash $dst) -ne $f.original -or (Test-Path -LiteralPath ($dst+'.ZH-v2.3-disabled'))) { throw 'Unsupported Chinese resource or conflicting backup' }
   $disable+=$f
  }
 }
@@ -55,7 +55,7 @@ foreach ($f in $manifest.files) {
  if ($actual -ne $f.original -and $actual -ne $f.patched) { throw "不相容或已被修改的遊戲檔案： $($f.path). 尚未安裝任何檔案。" }
 }
 if ($already) { Write-Host '已經完整安裝此版本補丁。';exit }
-foreach ($f in $manifest.files) { if ((Hash (SafePath $GameDir $f.path)) -ne $f.original) { throw '發現原版與補丁檔案混用，請先還原乾淨的支援版本。' } }
+foreach ($f in $manifest.files) { if ((Hash (SafePath $GameDir $f.path)) -ne $f.original) { throw '發現版本或檔案混用。請先撤除加裝包，再還原舊版；請勿直接覆蓋安裝。' } }
 $Stage=Join-Path ([IO.Path]::GetTempPath()) ('Zeus-ZH-'+[Guid]::NewGuid().ToString('N'))
 New-Item -ItemType Directory -Path $Stage | Out-Null
 try {
@@ -68,7 +68,7 @@ foreach ($f in $manifest.files) {
 }
 Write-Host '相容性與 16 個檔案重建校驗通過。'
 if ($Mode -eq 'Check') { exit }
-$BackupDir=Join-Path $GameDir ('ZH-Patch-Backup-v2.2-'+(Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
+$BackupDir=Join-Path $GameDir ('ZH-Patch-Backup-v2.3-'+(Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
 if (Test-Path -LiteralPath $BackupDir) { throw 'Backup folder already exists' }
 New-Item -ItemType Directory -Path $BackupDir | Out-Null
 foreach ($f in $manifest.files) {
@@ -76,11 +76,11 @@ foreach ($f in $manifest.files) {
  Copy-Item -LiteralPath (SafePath $GameDir $f.path) -Destination $dst
  if ((Hash $dst) -ne $f.original) { throw 'Backup verification failed. No game files installed.' }
 }
-@{version='2.2';game=$GameDir;files=$manifest.files;disabled=$disable} | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $BackupDir 'backup.json') -Encoding UTF8
+@{version='2.3';game=$GameDir;files=$manifest.files;disabled=$disable} | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $BackupDir 'backup.json') -Encoding UTF8
 $done=@()
 $renamed=@()
 try {
- foreach ($f in $disable) { $dst=SafePath $GameDir $f.path;Move-Item -LiteralPath $dst -Destination ($dst+'.ZH-v2.2-disabled');$renamed+=$f }
+ foreach ($f in $disable) { $dst=SafePath $GameDir $f.path;Move-Item -LiteralPath $dst -Destination ($dst+'.ZH-v2.3-disabled');$renamed+=$f }
  foreach ($f in $manifest.files) {
   $dst=SafePath $GameDir $f.path;$done+=$f
   Copy-Item -LiteralPath (SafePath $Stage $f.path) -Destination $dst -Force
@@ -88,10 +88,10 @@ try {
  }
 } catch {
  foreach ($f in $done) { Copy-Item -LiteralPath (SafePath $BackupDir $f.path) -Destination (SafePath $GameDir $f.path) -Force }
- foreach ($f in $renamed) { $dst=SafePath $GameDir $f.path;Move-Item -LiteralPath ($dst+'.ZH-v2.2-disabled') -Destination $dst }
+ foreach ($f in $renamed) { $dst=SafePath $GameDir $f.path;Move-Item -LiteralPath ($dst+'.ZH-v2.3-disabled') -Destination $dst }
  throw
 }
-Write-Host 'V2.2 漢化補丁安裝完成，存檔與設定保持不變。'
+Write-Host 'V2.3 漢化補丁安裝完成，存檔與設定保持不變。'
 Write-Host "Backup: $BackupDir"
 
 } finally {
