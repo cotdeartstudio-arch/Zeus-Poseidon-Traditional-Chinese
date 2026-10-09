@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="亞特蘭蒂斯的沉沒"
+Adventure_Introduction="@P自由冒險@L亞特蘭蒂斯以兩件事聞名：驚人的進步與不幸的沉沒。在這個冒險中體驗兩者。這是自由冒險，章節目標容易達成，最後一章完全沒有目標！一切由你決定！"
+Adventure_Complete="n/a"
+
+Parent_Episode_1_Title="黃金時代"
+Parent_Episode_1_Introduction="@P亞特蘭提斯是豐饒之地。肥沃的土壤上可以種出無數農作物，岩石地區出產各種礦物。理想的城市可以在這裡建成。亞特蘭提斯是不是好得不像真的？@P當你準備好繼續下一幕時，點擊「目標」按鈕並留出所需貨物。先警告你：亞特蘭提斯的智者預言黃金時代不會長久。如果你不想讓大規模毀滅降臨到你的城市，就不要進入下一幕。"
+Parent_Episode_1_Complete="@P亞特蘭提斯蓬勃發展，你決定進入亞特蘭提斯歷史的下一個階段。亞特蘭提斯飛得很高，但飛得最高的人摔得最遠。"
+Parent_Episode_2_Title="失樂園"
+Parent_Episode_2_Introduction="@P小動物們驚恐地四處奔跑：它們感覺到即將到來的厄運。先知證實了動物的感覺：未來十年將有一連串災難降臨亞特蘭提斯，但明智的統治者能重建大地所摧毀的一切。@P當你準備好迎接亞特蘭提斯歷史的最終事件時，點擊「目標」按鈕並留出所需貨物。不過請放心，沒有城市能在亞特蘭提斯最後時刻的災變中倖存。如果你膽小，就不要進入下一幕。"
+Parent_Episode_2_Complete="@P現在沒有回頭路了。雖然亞特蘭提斯撐過了過去幾年的艱難，但沒有任何東西能在即將到來的浩劫中存活。"
+Parent_Episode_3_Title="快逃命吧！"
+Parent_Episode_3_Introduction="@P很快地，一切都將結束！幾十年來，亞特蘭提斯一直是一片世外桃源。但是，沒有什麼是永恆的。"
+Parent_Episode_3_Complete="n/a"
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="第一殖民地標題"
+Colony_1_Introduction="@P第一殖民地介紹。"
+Colony_1_Complete="@P第一殖民地完成。"
+Colony_1_Selection="第一殖民地選擇。"
+Colony_2_Title="第二殖民地標題"
+Colony_2_Introduction="@P第二殖民地介紹。"
+Colony_2_Complete="@P第二殖民地完成。"
+Colony_2_Selection="第二殖民地選擇。"
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

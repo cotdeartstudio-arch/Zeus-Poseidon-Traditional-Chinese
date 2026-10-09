@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="沙盒自由遊戲 2"
+Adventure_Introduction="托伊贊擁有豐富多樣的資源，是建立你大帝國中心的理想地點。遠近的英雄都會湧向你的城市，渴望在此定居。這個冒險沒有目標，一切由你決定！"
+Adventure_Complete=""
+
+Parent_Episode_1_Title="英雄之城"
+Parent_Episode_1_Introduction="@P世界一切安好。你擁有兩個殖民地和一批盟友，朋友不缺。展現在你面前的美麗肥沃土地很快將矗立一座你親手設計的城市。還有什麼比這更好？@P雖然世界安好，但奧林匹斯山一切安好嗎？神就是神，仍會向你求助，城鎮邊界外可能還潛伏著一兩頭怪物。還好，希臘英雄都知道你的名聲，需要時二話不說就會來幫忙。"
+Parent_Episode_1_Complete=""
+Parent_Episode_2_Title=""
+Parent_Episode_2_Introduction=""
+Parent_Episode_2_Complete=""
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title=""
+Colony_1_Introduction=""
+Colony_1_Complete=""
+Colony_1_Selection=""
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

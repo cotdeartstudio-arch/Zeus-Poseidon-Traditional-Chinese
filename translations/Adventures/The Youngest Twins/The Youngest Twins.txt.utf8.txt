@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="最年輕的雙胞胎"
+Adventure_Introduction="@P自由冒險@L亞特蘭蒂斯人之間的戰爭前所未聞，但更離奇的事也發生過。這個自由冒險以軍事為主題。這是自由冒險，章節目標容易達成，最後一章完全沒有目標。一切由你決定！"
+Adventure_Complete="n/a"
+
+Parent_Episode_1_Title="阿齊姆帝國"
+Parent_Episode_1_Introduction="@P你的表親、阿齊姆的阿扎厄斯太過分了。原本只是表兄弟之間的競爭，如今升級為全面戰爭。阿扎厄斯摧毀了你的城市迪亞普里亞，接著征服了姆奈蘇斯和奧托赫王國。亞特蘭提斯人慌了，向你求助。其他亞特蘭提斯統治者答應先牽制好戰的阿扎厄斯，讓你重建迪亞普里亞，但迪亞普里亞本身沒有發動反攻所需的資源。如果要打敗阿扎厄斯，必須建立一個青銅和山銅補給充足的殖民地。@P當你準備好建立殖民地時，點擊「目標」按鈕並留出所需貨物。"
+Parent_Episode_1_Complete="@P你決定離開迪亞普里亞，出發建立殖民地。這個殖民地是結束阿扎厄斯暴政的關鍵。"
+Parent_Episode_2_Title="勝利的漫長之路"
+Parent_Episode_2_Introduction="@P你不在達庫姆期間，阿扎厄斯趁你不在，用各種強硬手段把更多城市拉進他邪惡的聯盟。他邪惡的影響力遠遠超出亞特蘭提斯的邊界。他向大洋神女們抹黑你的名聲，她們現在已經武裝起來對付你。而且，他喚醒了半人馬的憤怒，他們誓言向過去復仇。@P幸好，智慧的戰爭女神雅典娜站在你這邊，並召集了許多奧林匹斯神來幫你。為他們建聖殿，這些神會盡力而為。"
+Parent_Episode_2_Complete="n/a"
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="荒野海岸"
+Colony_1_Introduction="@P達庫姆這裡的礦石多到挖不完！很快地，精煉廠和鑄造廠就會生產出能挫敗阿扎厄斯邪惡計畫的珍貴物資。但是，這個地區有跡象顯示我們不是唯一在這裡的人。珍貴的礦石會吸引其他人並不令人意外，但希望這些人是和平的。而且，那座大山本身似乎不安，彷彿不願意放棄點綴山坡的礦石。可能有麻煩。@P當你準備好回到迪亞普里亞時，點擊「目標」按鈕並留出所需貨物。"
+Colony_1_Complete="@P既然有了穩定的礦石補給來支撐戰爭，你決定回到迪亞普里亞，一勞永逸地挫敗阿扎厄斯。"
+Colony_1_Selection="閃亮的山銅和銅礦點綴著風景，但自從上次亞特蘭提斯偵察兵來過後，這片土地似乎變了。"
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

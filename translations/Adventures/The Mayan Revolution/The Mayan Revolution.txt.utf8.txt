@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="瑪雅革命"
+Adventure_Introduction="@P自由冒險@L你所領導的孤零前哨與亞特蘭蒂斯本土斷了聯繫，必須在日益敵對的世界中屹立不搖。這是自由冒險，目標相當簡單，最後一章完全沒有目標。"
+Adventure_Complete="n/a"
+
+Parent_Episode_1_Title="準備"
+Parent_Episode_1_Introduction="@P自從你上次收到亞特蘭提斯母國的消息，已經過了好幾個月。亞特蘭提斯和一些愛琴海的後起之秀作戰有一段時間了，但這些簡單的人絕對打不過亞特蘭提斯。一些來自遠方的旅行者談到赤紅島和亞特蘭提斯發生的災難，報告說我們美麗母國大陸的整片區域已經沉入海底。無論美麗的亞特蘭提斯發生了什麼事，事實就是你必須自力更生。@P在斯皮奧斯這裡，似乎有麻煩醞釀。向來溫順、樂於接受亞特蘭提斯知識和貨物的瑪雅人，似乎變了。他們開始對我們有些粗魯，常看到他們一群人聚在一起小聲說話。被問到他們偷偷在談什麼時，他們聲稱只是在聊「沒什麼特別的」。@P所有跡象都指向即將到來的危險。只有驍勇的士兵和堅固的城牆才能確保斯皮奧斯安全。@P當你準備好進入這個冒險的第二部分時，點擊「目標」按鈕並留出所需貨物。先警告你：你即將體驗的這一段相對平靜，到了第二幕就會被打破。"
+Parent_Episode_1_Complete="斯皮奧斯站在危險邊緣。雖然到目前為止一切平靜，但寂靜即將被士兵的吶喊和刀劍的交鋒打破。"
+Parent_Episode_2_Title="戰爭"
+Parent_Episode_2_Introduction="@P開始了。所有瑪雅城鎮都起而反抗我們並宣戰，很快地他們會發動一波又一波攻擊。附近其他人也注意到瑪雅人的起義，傳言他們會在革命中站在瑪雅那一邊。斯皮奧斯可能是世界上最後一個亞特蘭提斯城市！為了亞特蘭提斯的榮光，必須不惜一切代價守住斯皮奧斯，必須把瑪雅人重新納入王國。"
+Parent_Episode_2_Complete=""
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title=""
+Colony_1_Introduction=""
+Colony_1_Complete=""
+Colony_1_Selection=""
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

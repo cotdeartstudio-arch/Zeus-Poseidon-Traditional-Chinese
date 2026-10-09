@@ -1,0 +1,144 @@
+{
+  "version": "2.2",
+  "format": "ZHTCDEL1-gzip",
+  "files": [
+    {
+      "path": "zeus.exe",
+      "original": "382bcd286192a06eb8fdc45f5c37390a19999f5db9c940c3ce2dfcd775e90a57",
+      "patched": "f81aac1f9ade5698f89eb1560061c03461165a59f56b553bfb118c67e38504b7",
+      "bytes": 2772992,
+      "delta": "payload/00.zhdelta",
+      "delta_sha256": "baa5e9edfebfa7e377a43a9fab58b6eda598f6e6b1bfec8d749373450ecd382f"
+    },
+    {
+      "path": "Zeus_Editor_Text.eng",
+      "original": "a7bd1a0f2739e9de5cd5720e91040fade23e8732358e3e4093710df49bdbf8ae",
+      "patched": "b9311d4491fff228d3d7a5cdb75c48b63e5592c7f183258ed13ac2cb4e557d93",
+      "bytes": 327723,
+      "delta": "payload/01.zhdelta",
+      "delta_sha256": "c9d12540c3f852e0a98dd73bf452545f835b7b26e579c666d7c172e0b780cd6b"
+    },
+    {
+      "path": "Zeus_MM.eng",
+      "original": "80b5b5471a99943a1c3ef5707f943f91e3fdd2d29b359171a164a43af30e7c3b",
+      "patched": "4620f3103b4b5795e48f1c61ddea96c9ed1cde5ff75990bff4a9198e9fc0cdd9",
+      "bytes": 1071116,
+      "delta": "payload/02.zhdelta",
+      "delta_sha256": "3e20159ecdf0ce2c78a86f6227a468f60838affb121c48118b25a4970ec436fb"
+    },
+    {
+      "path": "Zeus_Text.eng",
+      "original": "ef75469a05947c367c46a4d195c849779987f6f0f70bbf70a3a1d2744d3b9339",
+      "patched": "af648498d5d5ecd2e3dd2673c9cf32a3101092302d6561846df1930b0abec4a8",
+      "bytes": 325656,
+      "delta": "payload/03.zhdelta",
+      "delta_sha256": "fc5af451e6393bedd3aad25e62b31e8d72e0ac369a8cdeea1c3d5a6e3383b10b"
+    },
+    {
+      "path": "DATA/zeus_Fonts.555",
+      "original": "9530c2d54e395ed7f68b6b337aab1be16f13059defe829329290f3d8a2134a11",
+      "patched": "1aae5dfd30db363834533a98ef6bd169d5ba60322bd892e89561f9f01d81e7ca",
+      "bytes": 3845777,
+      "delta": "payload/04.zhdelta",
+      "delta_sha256": "f7c132d9ececa917846fb8f17ebdca0deee957c691c674ca3fca8f4f25959442"
+    },
+    {
+      "path": "DATA/Zeus_Fonts.sg3",
+      "original": "a43a608634abf354fe16df72b723522b8116a0711a4e13a6c78d8db1373f18aa",
+      "patched": "08c9eb83ffb5b41b4da7fa518929f04774c284b7cf7633e4e73d5e39b40957f2",
+      "bytes": 831720,
+      "delta": "payload/05.zhdelta",
+      "delta_sha256": "3da0f82b43a4b99a31bef52b8d742d0b2c3d17681ee86ab6bc73d5824312014b"
+    },
+    {
+      "path": "Model/Zeus eventmsg.txt",
+      "original": "5a4e92b9cab2c7b53b314139687f36ec25bc7ac3638178eb4ecea0e41d5c3307",
+      "patched": "8d5c2e667c1d2b751fe707f1d033d41e01f6973097a18d75af19f78e2f6ed077",
+      "bytes": 543252,
+      "delta": "payload/06.zhdelta",
+      "delta_sha256": "ee3284f445b433a74f532f4d2bc217cdbc0f8e18ec0af195947c011d496637ac"
+    },
+    {
+      "path": "Adventures/Open Play Economic 2/Open Play Economic 2.txt",
+      "original": "139f3b46b6b3c5c5e111755c80f6e0b44f448b1b0009e728d12c0b036e158bb6",
+      "patched": "0831390019c1c3ba8aaae34237caf1af5c878ee1ab3dea7e51505105249f8866",
+      "bytes": 5550,
+      "delta": "payload/07.zhdelta",
+      "delta_sha256": "0d1f3be91ac75c8b78f131073861171546cf5a16a3610d5f15d658ffbb12518e"
+    },
+    {
+      "path": "Adventures/Open Play Military 2/Open Play Military 2.txt",
+      "original": "05733f21bab8c9e0b63efae5f73bbfd7bdab1075119497a94d9d3acf8bdcc9a9",
+      "patched": "1ae282b4dcb507133ec4e6ff6ddfe23f7cc01765b17f102783cf69e07448578a",
+      "bytes": 4980,
+      "delta": "payload/08.zhdelta",
+      "delta_sha256": "7b743b0a0d1815e675467cf5c3880606e9915a78b4d2e220ef1fbf0b82d4493c"
+    },
+    {
+      "path": "Adventures/Open Play Sandbox 2/Open Play Sandbox 2.txt",
+      "original": "f59910be4ad6d05f560a2d72ddb8b746afe44a53a62f54e4b4bd8418c0808805",
+      "patched": "fe779ab96535038001e141b829760248c1af51ec762c87005171c9f2937a1e04",
+      "bytes": 2800,
+      "delta": "payload/09.zhdelta",
+      "delta_sha256": "ba8c22a3391b98e677bd4bcbd33caed72cc8e131c77ee0ee8050cc7baf9fc7c1"
+    },
+    {
+      "path": "Adventures/Rich Man's Blues/Rich Man's Blues.txt",
+      "original": "89cba8fc4d146a078f6e990b4734f03e4446a901866b199c4918dc81556096d9",
+      "patched": "e618f20f62dabc3b6309590207bc10552de17c0997fc3fe08637d0254e347820",
+      "bytes": 13832,
+      "delta": "payload/10.zhdelta",
+      "delta_sha256": "dc7b8b98a0da7726999769fe092d45927682554b60f221a0bf3ecff9ea119e09"
+    },
+    {
+      "path": "Adventures/The Founding of Troy/The Founding of Troy.txt",
+      "original": "b46e3641791c4d80b9904812f80fd0f3ee2c23f3e4736ef9a74974092df540ec",
+      "patched": "847334ad58f338d5368e9f930a89956ed711c53f15860989d8f7e77ac08fe856",
+      "bytes": 4918,
+      "delta": "payload/11.zhdelta",
+      "delta_sha256": "58465802172d420aaf37aa8d980d2e2f1b38e7c819af9d7acada1583b2246149"
+    },
+    {
+      "path": "Adventures/The Mayan Revolution/The Mayan Revolution.txt",
+      "original": "da684d0cb0eeffaa69c1be0a0b061d798e9825d2019c70d2acac7ad06e8fb561",
+      "patched": "c19d1d07c753c72158240c50a978bbfc480522a31fe667094499512babe5c3fc",
+      "bytes": 4371,
+      "delta": "payload/12.zhdelta",
+      "delta_sha256": "54dcc8af10c7727b833b0d449f6c86600063808447c61685024678e031b7cb07"
+    },
+    {
+      "path": "Adventures/The Odyssey/The Odyssey.txt",
+      "original": "6a6acd6ff513db2ad001a822f597ab390522914afaed4ff78a9796b574f50b66",
+      "patched": "6965612f1d463cc3ad0860adc497c9d1a57edf7065451133bb1e7f87c91a7a3d",
+      "bytes": 20188,
+      "delta": "payload/13.zhdelta",
+      "delta_sha256": "e2601203382291266addcb81c25362c5103a0f2aba392af6ca67f78da5c22e23"
+    },
+    {
+      "path": "Adventures/The Sinking of Atlantis/The Sinking of Atlantis.txt",
+      "original": "9a8c1cdfccddea2625042bab06513677b845b5de77f06686007a17647ecc5419",
+      "patched": "9c64ab97458f7ba6b9f9580ea080d8d608f4f30e6381fb915739bdb3df956a14",
+      "bytes": 4350,
+      "delta": "payload/14.zhdelta",
+      "delta_sha256": "e9a2ddb5950c32965d760f9c0b5211605dbdfcfdc382ddc331807de8f97a48c3"
+    },
+    {
+      "path": "Adventures/The Youngest Twins/The Youngest Twins.txt",
+      "original": "b5e876d7fcaeb9541fa9b4f96de055ff816c3ebc638da9fda920a1919a788952",
+      "patched": "2444593100b062b945975e47086bf83b152ebb08b16cbe0abd9649eb43cb2970",
+      "bytes": 4932,
+      "delta": "payload/15.zhdelta",
+      "delta_sha256": "6ff7fc04256a19eebb8a7afec96357f39d18fb63df5dd2542367f7d814e7efbd"
+    }
+  ],
+  "optional_disable": [
+    {
+      "path": "Zeus_Text.chn",
+      "original": "2f9a48034668c04ae5579f6c977fcd4da1c4b0812b6e88e5121fb334ee69ac69"
+    },
+    {
+      "path": "Zeus_MM.chn",
+      "original": "e056d20d767ef97562b636d842fa6efb34ec25ef7ce32438b0ab4d9d36163507"
+    }
+  ]
+}

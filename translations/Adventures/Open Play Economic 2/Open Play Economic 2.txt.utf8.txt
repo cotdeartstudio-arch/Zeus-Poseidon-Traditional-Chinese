@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="經濟自由遊戲 2"
+Adventure_Introduction="雅典有她的民主，斯巴達有她的雙王制，科林斯有她的暴君，但你知道怎麼治理一座城邦！在勒爾納建立帝國，展現你的才華！這個冒險的最後一章沒有目標，你可以盡情遊玩。"
+Adventure_Complete=""
+
+Parent_Episode_1_Title="吉祥的開端"
+Parent_Episode_1_Introduction="@P勒爾納是建立帝國的理想之地。你的城市將與魚和野豬共享這片土地，肥沃的田野非常適合種小麥。岩石山丘出產最好的大理石和閃亮的銅礦。的確，世界上沒有哪裡比得上勒爾納。@P不過沒有土地是完美的。勒爾納缺少幾樣關鍵資源。其中一些可以從希臘其他人那裡獲得，雖然你需要 持續 地討好他們。但事實一次又一次證明，即使是你最堅定的對手，只要你慷慨贈禮，也會變得溫順。@P當然，補充勒爾納缺失資源的最好方式是建立殖民地。準備好後，點擊「目標」按鈕，留出十六捆小麥給殖民地。然後你就可以為新城市選址了。"
+Parent_Episode_1_Complete="@P勒爾納蓬勃發展，但城市是時候變得更自給自足了。隨著殖民地的建立，勒爾納將成為一個帝國！"
+Parent_Episode_2_Title="城邦的成長"
+Parent_Episode_2_Introduction="@P勒爾納現在真是一個帝國了！你建立的殖民地將提供急需的資源和額外的收入來源。多虧了殖民地，勒爾納的生活肯定會變得更輕鬆！@P不過，如果勒爾納能自己生產剩下的幾樣寶貴資源就更好了。是時候建立第二個殖民地了。準備好後，點擊「目標」按鈕，留出十六捆小麥。然後你就可以前往第二個殖民地。"
+Parent_Episode_2_Complete="@P你決定已經準備好擴張帝國了！一旦第二個殖民地建立，勒爾納將勢不可擋！"
+Parent_Episode_3_Title="稱霸"
+Parent_Episode_3_Introduction="@P沒有什麼能阻擋你的成功！勒爾納和它的子城塔納努姆與馬拉松提供了希臘市民所能想要的幾乎所有產物。勒爾納帝國註定成為傳奇！"
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="林地"
+Colony_1_Introduction="@P結實的木材將有助於充實你的國庫，島上可能還有其他財富來源等待發現！準備好回到勒爾納時，點擊「目標」按鈕，留出十六塊木板。"
+Colony_1_Complete="@P馬拉松繁華的殖民地不僅為勒爾納提供寶貴的木材，還會購買勒爾納生產的許多貨物！有了馬拉松加入帝國，勒爾納的國庫將飛速增長！"
+Colony_1_Selection="翠綠森林點綴著馬拉松群島。這裡出產的木材將變成勒爾納的財富！"
+Colony_2_Title="塔納努姆山上"
+Colony_2_Introduction="@P塔納努姆是個可愛的地方。這個地區的中心是塔納努姆山，山頂是一片肥沃的草地。綿羊和橄欖樹找不到比這更好的家了。準備好回到勒爾納時，點擊「目標」按鈕，留出十六捆羊毛和十六壺橄欖油。"
+Colony_2_Complete="@P塔納努姆按你心意建好後，你可以回到勒爾納繼續累積經濟實力。"
+Colony_2_Selection="這裡豐富的草地讓養羊和種橄欖樹變得容易。"
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

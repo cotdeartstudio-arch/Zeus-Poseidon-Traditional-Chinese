@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="軍事自由遊戲 2"
+Adventure_Introduction="短短幾分鐘內，一場大地震摧毀了希臘所有城市。世界其他國家趁機侵佔希臘土地。你能擊退這些敵國，讓希臘重現昔日光輝嗎？這個冒險的最後一章沒有目標，你可以盡情遊玩。"
+Adventure_Complete=""
+
+Parent_Episode_1_Title="重生"
+Parent_Episode_1_Introduction="@P毀滅性的地震過去了，但厄瑞特里亞周圍的人們仍在恐懼中發抖。世界回到了它本來的樣子，就像當年宙斯擊敗堤豐、第一次讓世界適合凡人居住時那樣。人們轉向你，帶領他們走出這場浩劫，進入新世界，奪回他們曾經擁有的生活。@P但是，這個新世界裡還住著誰？我們不可能是唯一的倖存者！最勇敢的勇士已經同意出發，前往曾經是希臘的荒野，看看哪些朋友——以及敵人——還活著。"
+Parent_Episode_1_Complete="@P在你的領導下，厄瑞特里亞從破碎的土地上崛起，成為希臘流離失所者的避難所。你那些堅定的使節和探險家報告說，其他領袖也開始重建。厄瑞特里亞並不孤單。@P從很多方面來說，這場永遠改變希臘的地震其實什麼也沒改變。敵人仍在威脅希臘，想把不屬於他們的東西佔為己有。而擊退敵人進攻仍然靠你和你的盟友。是時候建立一個殖民地來增強希臘軍事力量，並為厄瑞特里亞提供戰爭工具了。"
+Parent_Episode_2_Title="光輝之路"
+Parent_Episode_2_Introduction="@P一切就緒。薩拉米斯提供戰爭資源，沒有什麼能阻擋你建立一支龐大強大的軍隊。對那些對希臘土地有無理主張的人開火，對他們發動嚴厲攻擊，直到他們放棄對你國家的佔領。"
+Parent_Episode_2_Complete=""
+Parent_Episode_3_Title=""
+Parent_Episode_3_Introduction=""
+Parent_Episode_3_Complete=""
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="力量的資源"
+Colony_1_Introduction="@P薩拉米斯的殖民地將成為解鎖厄瑞特里亞軍事力量的關鍵。薩拉米斯會成為你的幫手，為希臘的利益奉獻資源，同時作為強大的軍事基地。@P在你把薩拉米斯建好後，點擊「目標」按鈕，為厄瑞特里亞留出貨物。然後你就會回到母城，繼續驅逐希臘的敵人。"
+Colony_1_Complete="@P薩拉米斯殖民地將確保厄瑞特里亞永不缺乏小麥和青銅供應，這些是任何強大軍隊的支柱。海珀萊西蕾將代替你領導這個寶貴的殖民地，你則繼續恢復希臘的力量。"
+Colony_1_Selection="薩拉米斯是戰士的夢想。遍布土地的豐富銅礦可以製成最好的盔甲。肥沃的田野出產小麥，那是讓戰馬強健的食物。"
+Colony_2_Title=""
+Colony_2_Introduction=""
+Colony_2_Complete=""
+Colony_2_Selection=""
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""

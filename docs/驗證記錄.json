@@ -1,0 +1,39 @@
+{
+  "version": "2.2",
+  "date": "2026-10-10",
+  "files_reconstructed_and_byte_verified": 16,
+  "tests": [
+    {
+      "mode": "Check",
+      "success_expected": true,
+      "exit": 0
+    },
+    {
+      "mode": "Install",
+      "success_expected": true,
+      "exit": 0
+    },
+    {
+      "mode": "Install",
+      "success_expected": true,
+      "exit": 0
+    },
+    {
+      "mode": "Restore",
+      "success_expected": true,
+      "exit": 0
+    },
+    {
+      "mode": "Check",
+      "success_expected": true,
+      "exit": 0
+    },
+    {
+      "mode": "Install",
+      "success_expected": false,
+      "exit": 1
+    }
+  ],
+  "live_game": "未進行完整遊戲流程驗收",
+  "documentation": "備份警告、Steam 適用聲明、免費及合法持有聲明、3 張 SVG 示意圖、中文工具入口"
+}

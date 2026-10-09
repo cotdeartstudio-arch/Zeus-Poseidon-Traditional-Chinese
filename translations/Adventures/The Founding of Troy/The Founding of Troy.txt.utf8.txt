@@ -1,0 +1,62 @@
+;***** NOTES ON WORKING WITH ADVENTURE TEXT *******
+;
+;Edit only inside of the quotation marks. 
+;The Adventure title is limited to about 35 characters in length, and episode titles are limited to 65, including spaces.
+;Adventure introduction text is limited to about 350 characters, and colony description text is limited to 210.
+;Letters, numbers, and most standarad punctuation marks are the only valid characters.  See the Adventure Editor Guide for more information.
+;Use @P to start a new paragraph.
+;Use @L to start a new line.
+;
+;******** BEGIN TEXT ENTRIES ********
+
+Adventure_Title="特洛伊的建立"
+Adventure_Introduction="@P自由冒險@L一場即將來臨的災難迫使亞特蘭蒂斯城邦鐵拉的居民離開家園。帶領他們前往充滿新機會的新土地。這是自由冒險，目標容易達成，最後一章沒有任何目標。"
+Adventure_Complete="n/a"
+
+Parent_Episode_1_Title="銀色希望"
+Parent_Episode_1_Introduction="@P神諭者嚴厲的話語讓亞特蘭提斯人心中充滿恐懼。錫拉島注定毀滅，島上無人能倖免。面對毀滅性的結局，一群亞特蘭提斯人決定離開錫拉島，建立一座新城市，一座能延續亞特蘭提斯榮光的城市。@P當你把城市建好、準備建立殖民地時，點擊「目標」按鈕並留出指定貨物。"
+Parent_Episode_1_Complete="@P特洛伊尚未真正繁榮，除非它能更加自給自足。你決定暫時離開特洛伊，建立一個殖民地來補充特洛伊的經濟。"
+Parent_Episode_2_Title="孤兒"
+Parent_Episode_2_Introduction="@P悲傷的淚水落在人民臉上。多年前神諭的預言已經實現。錫拉島永遠失落了，被一場巨大火山爆發沉入海底。作為這個偉大文明最後的支柱，特洛伊必須繼續成長。@P當你準備好建立第二個殖民地時，點擊「目標」按鈕並留出指定貨物。"
+Parent_Episode_2_Complete="@P你認為時機已到，該建立第二個殖民地，確保特洛伊市民永遠有他們需要的貨物。"
+Parent_Episode_3_Title="成為特洛伊人"
+Parent_Episode_3_Introduction="@P特洛伊是一座美麗的城市，隨著貨物從殖民地和貿易夥伴源源不絕湧入，正迅速成為世界上最顯赫的城市。對錫拉島的記憶逐漸褪色，特洛伊人民一天比一天更不像亞特蘭提斯人，一天比一天更像特洛伊人。"
+Parent_Episode_3_Complete="n/a"
+Parent_Episode_4_Title=""
+Parent_Episode_4_Introduction=""
+Parent_Episode_4_Complete=""
+Parent_Episode_5_Title=""
+Parent_Episode_5_Introduction=""
+Parent_Episode_5_Complete=""
+Parent_Episode_6_Title=""
+Parent_Episode_6_Introduction=""
+Parent_Episode_6_Complete=""
+Parent_Episode_7_Title=""
+Parent_Episode_7_Introduction=""
+Parent_Episode_7_Complete=""
+Parent_Episode_8_Title=""
+Parent_Episode_8_Introduction=""
+Parent_Episode_8_Complete=""
+Parent_Episode_9_Title=""
+Parent_Episode_9_Introduction=""
+Parent_Episode_9_Complete=""
+Parent_Episode_10_Title=""
+Parent_Episode_10_Introduction=""
+Parent_Episode_10_Complete=""
+
+Colony_1_Title="紫與金"
+Colony_1_Introduction="@P這片土地和特洛伊完全不同。遼闊的草地非常適合種植金黃色的小麥和培育柔嫩的葡萄。@P當你準備好回到特洛伊時，點擊「目標」按鈕並留出所需貨物。"
+Colony_1_Complete="@P你決定回家了。這裡種的小麥和葡萄將成為特洛伊居民的福祉。"
+Colony_1_Selection="一座美麗島嶼，土壤肥沃，非常適合種葡萄和小麥。"
+Colony_2_Title="綠與白"
+Colony_2_Introduction="@P這片土地雖然多石，卻也肥沃。一旦這個殖民地開始運作，特洛伊將永遠不缺橄欖油和大理石。@P當你準備好回到特洛伊時，點擊「目標」按鈕並留出所需貨物。"
+Colony_2_Complete="@P既然伊達山準備好為特洛伊提供所需的全部橄欖油和大理石，你決定回家了。"
+Colony_2_Selection="這個地點位於石質山頂，非常適合種橄欖。"
+Colony_3_Title=""
+Colony_3_Introduction=""
+Colony_3_Complete=""
+Colony_3_Selection=""
+Colony_4_Title=""
+Colony_4_Introduction=""
+Colony_4_Complete=""
+Colony_4_Selection=""
