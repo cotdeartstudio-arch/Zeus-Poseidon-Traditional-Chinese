@@ -1,0 +1,385 @@
+{
+  "version": "2.3-HD",
+  "format": "ZHTCDEL1-gzip",
+  "files": [
+    {
+      "path": "zeus.exe",
+      "original": "55d86df40aa2ac1419621c100232ef1f34eafec81fe06a1baadfe58e40eff504",
+      "patched": "f81aac1f9ade5698f89eb1560061c03461165a59f56b553bfb118c67e38504b7",
+      "bytes": 2772992,
+      "delta": "payload/00.zhdelta",
+      "delta_sha256": "51924c6bed24310b1a8d197ee32e95e97221ceb822597eacf45364a74bb3c74a"
+    },
+    {
+      "path": "Zeus_Text.eng",
+      "original": "92b31c6bd5eef40a8557d02530bf7fd6734a35a14257c8263e38e742c7acfaa1",
+      "patched": "af648498d5d5ecd2e3dd2673c9cf32a3101092302d6561846df1930b0abec4a8",
+      "bytes": 325656,
+      "delta": "payload/01.zhdelta",
+      "delta_sha256": "e1cd75ab2a874c7e961844b6e71d63b4f1fec554653825233fcb21b155ea33ee"
+    },
+    {
+      "path": "DATA/Poseidon_FE_MainMenu.JPG",
+      "original": "7d916cdd2001d0334edd2db41d1c2e2b14d84af4c18bce207a9a33984a34c077",
+      "patched": "c45824faa5169d88eeab704a83629da8eb50434146c93fc7ce55df63b6b02408",
+      "bytes": 356239,
+      "delta": "payload/02.zhdelta",
+      "delta_sha256": "c04d6f66bb635cb83ff91511f863a7e4b0a0d3ff0d1faaa0d57e9e8517c0ed16"
+    },
+    {
+      "path": "DATA/Poseidon_FE_Registry.jpg",
+      "original": "de18870174d4f58ae943756f97c3ab30f276fc925264b4290bff44002c967265",
+      "patched": "bfb7434e30d32f7e340f2e6f7e7d73b45d0e61ae8cbdac9e74f9612dd5ce2384",
+      "bytes": 424662,
+      "delta": "payload/03.zhdelta",
+      "delta_sha256": "d910193c8ecce6c4942395aa00b15fda722125e9fbc73da39edd6123dbca2b51"
+    },
+    {
+      "path": "DATA/Poseidon_Load1.jpg",
+      "original": "676da5a4944015f94cf9eba4e5aafc2621351bd953180b12a0cf5d446742b304",
+      "patched": "0b5024a129448b885f4be265c00ab4e2de2a7e4644c1fff1384a9f93b124cff9",
+      "bytes": 366140,
+      "delta": "payload/04.zhdelta",
+      "delta_sha256": "014e7dc6fb2665c87432f8b33678e40dd57320b4c9f11da94d99231f63bb952c"
+    },
+    {
+      "path": "DATA/Poseidon_Load2.jpg",
+      "original": "75e6a077c9d9c0f6891debc0a11dc2ea51554575b5149554888b51863a306f29",
+      "patched": "276b14580217d29538ae9dabd76a89118fb6d1c7e125dfaab0569b1c17f26a7f",
+      "bytes": 330682,
+      "delta": "payload/05.zhdelta",
+      "delta_sha256": "52b0d650227c55a7d114ca87f6ccc5def5e3971860e60af5208270f7b5d560a2"
+    },
+    {
+      "path": "DATA/Poseidon_Load3.jpg",
+      "original": "d4dc1d7fe8fcbecac43f79b271825168de5c1d2ab4f73f581a4ff1a8eefdedbc",
+      "patched": "52ce0690584ecdbb5a52bba4590f2ceba1f0be190af7f7f8277d4118d82c9199",
+      "bytes": 297874,
+      "delta": "payload/06.zhdelta",
+      "delta_sha256": "1c4ee80fbe5b3bc88bbbe4fc9f1895f910e051e0595ad9e95ebd84c73364046c"
+    },
+    {
+      "path": "DATA/Poseidon_Load4.jpg",
+      "original": "b8b86d5ede55d8d9c3390cecbb99bdb34b29b711134ec8c97ebacc04bdd6d05f",
+      "patched": "183fa29ea9c1e841f7bbb8d5fc0a0a09d9d73a14380deb3a67194724f8aec492",
+      "bytes": 488741,
+      "delta": "payload/07.zhdelta",
+      "delta_sha256": "bffaf989ce46afaf63202adeb9a017f130fa8031af87952648512ce04b203cb2"
+    },
+    {
+      "path": "DATA/Poseidon_Load5.jpg",
+      "original": "cfaaab3fc26b28a84b4eeadbb468ad5317f57e3bb0b193abd1891b61d20ecdfd",
+      "patched": "236b1ceacba8e28a6918bcb73a1cafd5fc9f45eedef67313e140a1125d078e83",
+      "bytes": 328191,
+      "delta": "payload/08.zhdelta",
+      "delta_sha256": "c83ed87c35f868ddf6fc5db0345c464224607b32cfb31d782e367922919b663c"
+    },
+    {
+      "path": "DATA/Poseidon_Load6.jpg",
+      "original": "a62763df763a588f46d935c30af3a94807a162121de309d1fa6e58e978ab7278",
+      "patched": "475174cb2710004059fe605680f9a3f395165bcd626567f123666a15c1cf9ec1",
+      "bytes": 334454,
+      "delta": "payload/09.zhdelta",
+      "delta_sha256": "393170a096671a56a74b20cb0ae62f2fe41db4d27c952b10e04adcb4fbd9b809"
+    },
+    {
+      "path": "DATA/Poseidon_Load7.jpg",
+      "original": "c09c514a7edd4e1ee2d7545e9c6eddf8041ac55b285ae4532e601483f9a96683",
+      "patched": "5890adbe75a2316c0f20afed7e216c6629bde17d480dce3ca2112109a815a550",
+      "bytes": 335730,
+      "delta": "payload/10.zhdelta",
+      "delta_sha256": "a4d7c470627253360d54d8b587ee5b11136d1371cee8e16db4184d9df54a6731"
+    },
+    {
+      "path": "DATA/Poseidon_Load8.jpg",
+      "original": "1a227882dec6ecad6f25bcc3bdbe9707a9a22b512ee813214042dfac69b23567",
+      "patched": "681d4c6406e5384a6715f28e33aa91e2b8301e70360b3177db1c05a95ea625ce",
+      "bytes": 323680,
+      "delta": "payload/11.zhdelta",
+      "delta_sha256": "59c1c2d3d9582e7d091d29fa4dcc6667831b53b659ce7a164a323d8df66faa0f"
+    },
+    {
+      "path": "DATA/Poseidon_map01.jpg",
+      "original": "a94ff5d7a8101925f6bc3efb8e881d1448e1208f16968d73e07f857a85b4a12d",
+      "patched": "56cdbb68711d5943e4fe774f5c43d878878ddf9ecf84208fb7c8ae6cf2e4b9e7",
+      "bytes": 350578,
+      "delta": "payload/12.zhdelta",
+      "delta_sha256": "6df1e723e538221e878228e66e98b2e88b4925b657f38dddaea15d38f386bfad"
+    },
+    {
+      "path": "DATA/Poseidon_map02.jpg",
+      "original": "84a701d04bdc561503c07d61f0de46a37111794aa9f6d45ce27a4209001b8fcf",
+      "patched": "3b73e84ae6419981dfff88cab831197c5880bdf19b5341e1346d1fb71db78d28",
+      "bytes": 367814,
+      "delta": "payload/13.zhdelta",
+      "delta_sha256": "35b1b1ec4dedda6a6b2b49189137d9c2421ef8c3543681f49dff1857594ee029"
+    },
+    {
+      "path": "DATA/Poseidon_map03.jpg",
+      "original": "394302d8fcc0e8c66d7fbb158736284b49913a169372af5cdbae44dcb64811a3",
+      "patched": "4914753901566a0a9d375e6f68a80111b5a8cd801c5faed4d867cbbc29514272",
+      "bytes": 338261,
+      "delta": "payload/14.zhdelta",
+      "delta_sha256": "f900d35265c197199882f3ff28ae4682acc021aef12c8229c56226af34ed2041"
+    },
+    {
+      "path": "DATA/Poseidon_map04.jpg",
+      "original": "dfcc1bd74a9dba5ac5e21d4f6bf7781331c4b4cf666319ea7b7ba0356275993d",
+      "patched": "7d5a7e1a505282b272c1fd500da07922e0c4e6715daf892f96a67c9f77c7fd06",
+      "bytes": 418548,
+      "delta": "payload/15.zhdelta",
+      "delta_sha256": "e879605977c8eed5dc9df8dde6de2e0d82a5dea52950b9ca8476cc859e0eacc8"
+    },
+    {
+      "path": "DATA/scoreb.jpg",
+      "original": "0ef994f65a929c137ce6efa957959ef32a8ca57bc1d6b655e6776081c69b4ff2",
+      "patched": "9ac1abefd719915797cf0684e3f807781cf401ad6c61976729292fb0ba6ed20b",
+      "bytes": 266580,
+      "delta": "payload/16.zhdelta",
+      "delta_sha256": "90ac0909d79b3d9fdde9c25255e7b6c840b3d3e57bb2b445ddb8eee0dbcd6456"
+    },
+    {
+      "path": "DATA/Zeus_Defeat.jpg",
+      "original": "c0cf4863f3cacea0b9003a94f31dc593ec4d68c6fdea2abd6a0f94bb8f95ceb8",
+      "patched": "9b6ff163043744c3220d87f395662ad4cd31db6b2c25547f3c6b2f5724d72336",
+      "bytes": 317801,
+      "delta": "payload/17.zhdelta",
+      "delta_sha256": "f50c6662ddb5fb7f00c29b8c4572903b9272ccd4d0a94084d4b8979b744dff24"
+    },
+    {
+      "path": "DATA/Zeus_FE_CampaignSelection.JPG",
+      "original": "53fb07da6740103ddb461659ed76e44ec9977827b298f78dcf6a67e80491029b",
+      "patched": "2a9ae2402759275c437b535dc032841d0e7920045a98dd354310cca03b7e9f21",
+      "bytes": 388044,
+      "delta": "payload/18.zhdelta",
+      "delta_sha256": "9af4b7b58060fd8733028b8cb4f95e234a8de26faf3e63a6169783ebcee6a312"
+    },
+    {
+      "path": "DATA/Zeus_FE_ChooseGame.jpg",
+      "original": "a734da8afea0f7fcfa4d4cfc0724fc97b704d7fabbe4214323f3740a88582814",
+      "patched": "5beb69ad6656b3f965fcf9feed422d5e57b4a25c7ebf1e0e7e8c2bbba59f6856",
+      "bytes": 403727,
+      "delta": "payload/19.zhdelta",
+      "delta_sha256": "751d06ae0e5620d4efa92932dce94203753260d743f500b372785b1dba455566"
+    },
+    {
+      "path": "DATA/Zeus_FE_MainMenu.jpg",
+      "original": "21d41610d9c2a71d0c150e7d4c051c1ab8f0af913beb22799810ee3d7ad8736c",
+      "patched": "4ee5dccb2711c45609416e59503601650ce1d70db125613467ae8f74665e7e11",
+      "bytes": 403151,
+      "delta": "payload/20.zhdelta",
+      "delta_sha256": "d45dc582a9da52b8a9e07f8ab86ddbf532fc4a975491ce98736a6306a7411dd3"
+    },
+    {
+      "path": "DATA/Zeus_FE_MissionIntroduction.jpg",
+      "original": "47054688437bcef6a978c3bfb4a3c8f4f9bce1034a8ebf27bb9fbfb062943c9d",
+      "patched": "ecc6ab132647737dbaecbb6df0573fd30a9ddaad5b25c69b60c64b8930afdfa5",
+      "bytes": 331237,
+      "delta": "payload/21.zhdelta",
+      "delta_sha256": "069e27321ad0f88e1f0e20104236b23afc5e72bf5838d1a8361eadb44e8afce6"
+    },
+    {
+      "path": "DATA/Zeus_FE_Registry.jpg",
+      "original": "7a9e414f902837711ba8e966adc2ddb6805f7ba59819e6eb2e61f6f8fbb9c1e7",
+      "patched": "877468109692eeff43e7427c362cdd3373992d4f049998464674faed59b4cf9a",
+      "bytes": 334905,
+      "delta": "payload/22.zhdelta",
+      "delta_sha256": "ad8fb6eab668492ea8c07ccd7b2aa33e07747530a86b044269c0f2ff8bdb8ab5"
+    },
+    {
+      "path": "DATA/Zeus_FE_tutorials.JPG",
+      "original": "70a4d5d68e17abe77d8f1486f55de079b83e770bbfbd06f802c27d15841cc9d6",
+      "patched": "e2613f824d27b5c678d628cc42b7b5aff4be223bf0024587987bfd270b21fd8e",
+      "bytes": 391156,
+      "delta": "payload/23.zhdelta",
+      "delta_sha256": "61ae99d75e14fab206de7d5d6ba7c30d94ba94102179d65637b94f3b1c30ac45"
+    },
+    {
+      "path": "DATA/Zeus_Load1.jpg",
+      "original": "4fa9c0e594dd21db3562453b4fb7c3cd961b7c6bb60b42a356b269f3110cc05f",
+      "patched": "4853f7c13ec8dda78bf373b74890e3ebd65a8bb946da304a2fd58c553809448d",
+      "bytes": 446669,
+      "delta": "payload/24.zhdelta",
+      "delta_sha256": "01030d3b742d712d5cd21275058de3f78aa21b1f346aa528c71e372ffcab4702"
+    },
+    {
+      "path": "DATA/Zeus_Load2.jpg",
+      "original": "ed4125c26e2781740aea74ff129d91c42d832d669de6f79fd172644814266a89",
+      "patched": "ee7a0c8a7f24d9d374777e6bfb2a767db9e310c93b4e50f4f46b2d4642aeb1dd",
+      "bytes": 289321,
+      "delta": "payload/25.zhdelta",
+      "delta_sha256": "fc1bd4ab9a12b9811b5ba4fd1b1b3be70b55e45edc388e60a402a464f0806d8c"
+    },
+    {
+      "path": "DATA/Zeus_Load3.jpg",
+      "original": "8b9fd8563bba9355fe899ad7122ee6b277a36e581be04df371708b92d166d232",
+      "patched": "a8b14088ca8d75e01883a786d8afc154714ef87b7b9c3d1d7301d66822dd3ecc",
+      "bytes": 354124,
+      "delta": "payload/26.zhdelta",
+      "delta_sha256": "31d2b54dccc1a658cc4cdeec346cf4730254a1dda96a83effa91220479866169"
+    },
+    {
+      "path": "DATA/Zeus_Load4.jpg",
+      "original": "be52d5e1ba4d6d9a61c22df40151da11b84c6467e129f67211ca11e48f1d117d",
+      "patched": "435259355fb664af3881104765dcc5762868d5191a028dcbf170b2642c5fa9b6",
+      "bytes": 290285,
+      "delta": "payload/27.zhdelta",
+      "delta_sha256": "e9dca3e6a86f976b5656bcfbaad9c9c0b8b84b304fc6bdee74b5b76fbff6e953"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece01.JPG",
+      "original": "5b4418a8f399d570698cbadc09b7fb884e05f48140f34a5aadea2eed569c2177",
+      "patched": "e55f6a26b0faec6e28e4976417141a9fa20abcfadc6d6c0187d1136f1632b090",
+      "bytes": 392677,
+      "delta": "payload/28.zhdelta",
+      "delta_sha256": "154ce3e81d8bcf6efd70687e4c09f1d7ddbabc0b607c01891ca4ea7bb9f302b4"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece02.JPG",
+      "original": "cfde3aa6d3e1fd9259c9669a61ccde5510ac474df62736b74c4605336c1cea80",
+      "patched": "9989fce6c29968ff3c5665ff7d8f2d3b073a574d442dd392f3c6a27f47c08b62",
+      "bytes": 395475,
+      "delta": "payload/29.zhdelta",
+      "delta_sha256": "127578e5fc5f683fb631f06cbef6c277e9afba093d0182c72c023cefeb11aaa7"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece03.JPG",
+      "original": "7a203b7f25ec2fd4a203cd6ad7b6a7b93f9d9b4bd3656c20e110e9df96ba1a0c",
+      "patched": "e9b0916b98c83bce307d7ad800c71bc87163008402a36f8a1070ecb8cf1eb514",
+      "bytes": 388877,
+      "delta": "payload/30.zhdelta",
+      "delta_sha256": "39c59f2d2bbc26011d202756373136bcbcaad904ea9adefe55de4c58d6185fea"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece04.JPG",
+      "original": "28955f107e5a6a67dc6f8e4b5197ef2c0481ee814fc10a9c787d26981a957e5e",
+      "patched": "d979b9ff067ea5570fc783fab2e33299eb1a043d971c7038d6c8b38b5590151e",
+      "bytes": 398288,
+      "delta": "payload/31.zhdelta",
+      "delta_sha256": "58735be3c06e41795ca2c0807d42a58f4040227b306c1b6d1d7a90a2379eae36"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece05.JPG",
+      "original": "b18f38ff9f9565708c2f69b0eab138f351cc31d814326429966c39ef862a725f",
+      "patched": "36c47cd7533afd4e18d031d7e98ce0ddbcf1aa5eb3c0f82996491786be1ca1c7",
+      "bytes": 397311,
+      "delta": "payload/32.zhdelta",
+      "delta_sha256": "91c2f7b156713c6521648b041c0fce544914f3f7c165f6bc9d58fd5572f85bc7"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece06.JPG",
+      "original": "9a81f624faac4ff86bfe1297f3930aa7c609d322313911d7108f189092195930",
+      "patched": "b3b572d1e5ba3d9e47d4988de0e7b54054fb31b990855d5babb363a50861f86f",
+      "bytes": 399248,
+      "delta": "payload/33.zhdelta",
+      "delta_sha256": "027c3cc258f9706c27f97218c6d281e326d02db8257847c0d0fe970f27587208"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece07.JPG",
+      "original": "f553bd648aab6797076858c5375887eb3b5bc2587d1eb46697b9213251326f7d",
+      "patched": "b0ab5b695cbc015f7f1c564452c3b3ee092a0a168538394213989c3f1614b06b",
+      "bytes": 394132,
+      "delta": "payload/34.zhdelta",
+      "delta_sha256": "e24cd504b701bec5d2e11c73fb487dba101468a1844aa3cf0722f2f32c844b7c"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece08.JPG",
+      "original": "7e8da7820d8e6e2cdb2c189131917d72237e47b00b95ef00775bc0e8028fcf80",
+      "patched": "b0f7c834f954da4e980ece43a1161f897558cf893d044276402b3e3932f910dd",
+      "bytes": 374726,
+      "delta": "payload/35.zhdelta",
+      "delta_sha256": "8af7594a8c4fbebcc486acccc0c572415cdebb86854dfb20d7c81dab667708cb"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece09.JPG",
+      "original": "7e8da7820d8e6e2cdb2c189131917d72237e47b00b95ef00775bc0e8028fcf80",
+      "patched": "b0f7c834f954da4e980ece43a1161f897558cf893d044276402b3e3932f910dd",
+      "bytes": 374726,
+      "delta": "payload/36.zhdelta",
+      "delta_sha256": "8af7594a8c4fbebcc486acccc0c572415cdebb86854dfb20d7c81dab667708cb"
+    },
+    {
+      "path": "DATA/Zeus_MapOfGreece10.JPG",
+      "original": "7e8da7820d8e6e2cdb2c189131917d72237e47b00b95ef00775bc0e8028fcf80",
+      "patched": "b0f7c834f954da4e980ece43a1161f897558cf893d044276402b3e3932f910dd",
+      "bytes": 374726,
+      "delta": "payload/37.zhdelta",
+      "delta_sha256": "8af7594a8c4fbebcc486acccc0c572415cdebb86854dfb20d7c81dab667708cb"
+    },
+    {
+      "path": "DATA/Zeus_Title.jpg",
+      "original": "51ac40097f531b6a202fc41809f53684f256d2d858cc42ce60c95dd59eadcbef",
+      "patched": "8339081a5985125d2d2ca1e1223c56ca8a948f1596eca9555a7d904cbe357b61",
+      "bytes": 233793,
+      "delta": "payload/38.zhdelta",
+      "delta_sha256": "0129a4ec8ec373184b0483d46f3b07603248c8a4112ddc7eb268610b4a3977eb"
+    },
+    {
+      "path": "DATA/Zeus_Victory.jpg",
+      "original": "361250b694c005659cfc6449fdc642f6ccfdd84d5713e09c61e9f4c5b7675c40",
+      "patched": "59594797bdf1b5c706de79d58ae14b90ce99bb7442aaa070ae5eb961c67a4e0b",
+      "bytes": 381929,
+      "delta": "payload/39.zhdelta",
+      "delta_sha256": "b9ffd52af72cb03e0ac26e157ac0b8ed39bb4b3685edf6a6a067c00b7b716e81"
+    }
+  ],
+  "optional_disable": [],
+  "required": [
+    {
+      "path": "Zeus_Editor_Text.eng",
+      "sha256": "b9311d4491fff228d3d7a5cdb75c48b63e5592c7f183258ed13ac2cb4e557d93"
+    },
+    {
+      "path": "Zeus_MM.eng",
+      "sha256": "4620f3103b4b5795e48f1c61ddea96c9ed1cde5ff75990bff4a9198e9fc0cdd9"
+    },
+    {
+      "path": "DATA/zeus_Fonts.555",
+      "sha256": "1aae5dfd30db363834533a98ef6bd169d5ba60322bd892e89561f9f01d81e7ca"
+    },
+    {
+      "path": "DATA/Zeus_Fonts.sg3",
+      "sha256": "08c9eb83ffb5b41b4da7fa518929f04774c284b7cf7633e4e73d5e39b40957f2"
+    },
+    {
+      "path": "Model/Zeus eventmsg.txt",
+      "sha256": "8d5c2e667c1d2b751fe707f1d033d41e01f6973097a18d75af19f78e2f6ed077"
+    },
+    {
+      "path": "Adventures/Open Play Economic 2/Open Play Economic 2.txt",
+      "sha256": "0831390019c1c3ba8aaae34237caf1af5c878ee1ab3dea7e51505105249f8866"
+    },
+    {
+      "path": "Adventures/Open Play Military 2/Open Play Military 2.txt",
+      "sha256": "1ae282b4dcb507133ec4e6ff6ddfe23f7cc01765b17f102783cf69e07448578a"
+    },
+    {
+      "path": "Adventures/Open Play Sandbox 2/Open Play Sandbox 2.txt",
+      "sha256": "fe779ab96535038001e141b829760248c1af51ec762c87005171c9f2937a1e04"
+    },
+    {
+      "path": "Adventures/Rich Man's Blues/Rich Man's Blues.txt",
+      "sha256": "e618f20f62dabc3b6309590207bc10552de17c0997fc3fe08637d0254e347820"
+    },
+    {
+      "path": "Adventures/The Founding of Troy/The Founding of Troy.txt",
+      "sha256": "847334ad58f338d5368e9f930a89956ed711c53f15860989d8f7e77ac08fe856"
+    },
+    {
+      "path": "Adventures/The Mayan Revolution/The Mayan Revolution.txt",
+      "sha256": "c19d1d07c753c72158240c50a978bbfc480522a31fe667094499512babe5c3fc"
+    },
+    {
+      "path": "Adventures/The Odyssey/The Odyssey.txt",
+      "sha256": "6965612f1d463cc3ad0860adc497c9d1a57edf7065451133bb1e7f87c91a7a3d"
+    },
+    {
+      "path": "Adventures/The Sinking of Atlantis/The Sinking of Atlantis.txt",
+      "sha256": "9c64ab97458f7ba6b9f9580ea080d8d608f4f30e6381fb915739bdb3df956a14"
+    },
+    {
+      "path": "Adventures/The Youngest Twins/The Youngest Twins.txt",
+      "sha256": "2444593100b062b945975e47086bf83b152ebb08b16cbe0abd9649eb43cb2970"
+    }
+  ]
+}

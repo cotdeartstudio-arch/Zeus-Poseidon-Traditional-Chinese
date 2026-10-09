@@ -1,39 +1,31 @@
 {
-  "version": "2.2",
-  "date": "2026-10-10",
-  "files_reconstructed_and_byte_verified": 16,
+  "version": "2.3",
+  "base_files": 16,
+  "optional_files": 40,
   "tests": [
-    {
-      "mode": "Check",
-      "success_expected": true,
-      "exit": 0
-    },
-    {
-      "mode": "Install",
-      "success_expected": true,
-      "exit": 0
-    },
-    {
-      "mode": "Install",
-      "success_expected": true,
-      "exit": 0
-    },
-    {
-      "mode": "Restore",
-      "success_expected": true,
-      "exit": 0
-    },
-    {
-      "mode": "Check",
-      "success_expected": true,
-      "exit": 0
-    },
-    {
-      "mode": "Install",
-      "success_expected": false,
-      "exit": 1
-    }
+    "base dimensions/startup/camera PASS",
+    "optional dimensions/startup/camera PASS",
+    "70 animation locations: base original, optional fixed PASS",
+    "optional refuses unlocalized original PASS",
+    "base check no changes PASS",
+    "base install PASS",
+    "base repeat install PASS",
+    "optional check no changes PASS",
+    "optional install PASS",
+    "base restore blocked while optional active PASS",
+    "optional repeat install PASS",
+    "damaged optional backup rejected PASS",
+    "optional restore returns to base PASS",
+    "base restore returns to original PASS",
+    "base reinstall PASS",
+    "damaged addon rejected without writes PASS",
+    "base restore second install PASS",
+    "old integrated install fixture PASS",
+    "new base refuses integrated version PASS",
+    "bundled v2.2.1 restore PASS",
+    "base after old restore PASS"
   ],
-  "live_game": "未進行完整遊戲流程驗收",
-  "documentation": "備份警告、Steam 適用聲明、免費及合法持有聲明、3 張 SVG 示意圖、中文工具入口"
+  "protected_audio_save_settings_intro": "unchanged across install/restore",
+  "restoration": "byte-identical original and base snapshots",
+  "live_game": "尚未進行完整實機遊玩驗收"
 }

@@ -8433,25 +8433,25 @@
     "group": 42,
     "index": 1,
     "original": "Full screen",
-    "text": "1024 x 768 (視窗)"
+    "text": "640 x 480 (視窗)"
   },
   {
     "group": 42,
     "index": 2,
     "original": "Windowed screen",
-    "text": "1024 x 768 (視窗)"
+    "text": "640 x 480"
   },
   {
     "group": 42,
     "index": 3,
     "original": "800 x 600 resolution",
-    "text": "1920 x 1080 (HD)"
+    "text": "800 x 600"
   },
   {
     "group": 42,
     "index": 4,
     "original": "1024 x 768 resolution",
-    "text": "2560 x 1440 (2K)"
+    "text": "1024 x 768"
   },
   {
     "group": 42,
